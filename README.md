@@ -27,6 +27,16 @@ A Foundry template to compile and test Vyper contracts.
 
 <br>
 
+# Notes
+```bash
+python3 -m pip install --user virtualenv
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+
+pip3 install vyper
+
+forge test --match-path src/test/SimpleStore.t.sol --ffi
+```
 
 # Installation / Setup
 

@@ -1,7 +1,7 @@
 
 val: uint256
 
-@external
+@deploy
 def __init__(_val: uint256):
     self.val = _val
 
